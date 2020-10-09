@@ -1,0 +1,26 @@
+.button {
+    width: 160px;
+    height: 45px;
+    display: block;
+    background-color: $main_color;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12px;
+    text-align: center;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 50px;
+    transition: .5s all;
+    &:hover {
+        box-shadow: 0 0 15px inset rgba(0, 0, 0, 0.7);
+        text-shadow: 0 0 5px rgba(0, 0, 0, 0.7);
+    }
+    &_w-230 {
+        margin: 39px auto 0;
+        width: 230px;
+        height: 57px;
+        font-size: 15px;
+        font-weight: 700;
+    }
+}
