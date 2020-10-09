@@ -1,8 +1,24 @@
 .title {
+    margin-bottom: 0;
     color: #2e2e2e;
     font-size: 26px;
     font-weight: 700;
     line-height: 26px;
     text-align: center;
     text-transform: uppercase;
+}
+.subtitle-line {
+    margin: 20px auto 17px;
+    width: 148px;
+    height: 1px;
+    background-color: $main_color;
+}
+.subtitle {
+    max-width: 880px;
+    margin: 0 auto;
+    color: #2e2e2e;
+    font-size: 21px;
+    font-weight: 300;
+    line-height: 24px;
+    text-align: center;
 }

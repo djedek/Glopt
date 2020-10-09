@@ -46,6 +46,15 @@
         &__services-item {
             margin-bottom: 25px;
         }
+    }
+    .work {
+        padding-bottom: 15px;
+        &__wrapper {
+            justify-content: space-around;
+        }
+        &__item {
+            margin: 0 10px 40px;
+        }
     }   
 }
 
@@ -93,7 +102,15 @@
             width: 85%;
         }
     }
-    
+    .work {
+        &__item {
+            max-width: 100%;
+        }
+    }   
+    .subtitle {
+        font-size: 18px;
+        line-height: 22px;
+    }
 }
 
 @media (max-width: 500px) {
@@ -121,5 +138,17 @@
         &__descr {
             text-align: left;
         }
+    }
+    .work {
+        &__img {
+            max-width: 100%;
+        }
+        &__descr {
+            text-align: left;
+        }
+    } 
+    .subtitle {
+        font-size: 16px;
+        line-height: 20px;
     }
 }
