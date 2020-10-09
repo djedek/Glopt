@@ -38,25 +38,6 @@
             border-right: none;
         }
     }
-    &__phone-block {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        width: 340px;
-    }
-    &__phone {
-        color: #ffffff;
-        font-size: 14px;
-        font-weight: 300;
-        line-height: 14px;
-        text-align: right;
-        a {
-            font-size: 19px;
-            font-weight: 700;
-            line-height: 19px;
-            color: #fff;
-        }
-    }
     &__title {
         margin-top: 10px;
         color: #ffffff; 
