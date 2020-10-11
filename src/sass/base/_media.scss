@@ -67,6 +67,15 @@
     }  
 }
 
+@media (max-width: 870px) {
+    .consultation {
+        &__form {
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+}
+
 @media (max-width: 770px) {
     .promo {
         &__menu {
@@ -119,6 +128,11 @@
     .subtitle {
         font-size: 18px;
         line-height: 22px;
+    }
+    .consultation {
+        &__title {
+            font-size: 22px;
+        }
     }
 }
 
