@@ -1,0 +1,37 @@
+.schema {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 50px 0 46px;
+    min-height: 454px;
+    background-color: #f3f3f3;
+    &__wrapper {
+        margin-top: 33px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+        flex-wrap: wrap;
+    }
+    &__item {
+        width: 260px;
+        margin: 0 10px 25px;
+        text-align: center;
+    }
+    &__img {
+        height: 57px;
+    }
+    &__title {
+        margin-top: 5px;
+        color: #ec644b;
+        font-size: 16px;
+        font-weight: 700;
+        line-height: 18px;
+    }
+    &__descr {
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: center;
+    }
+
+}
