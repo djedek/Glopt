@@ -67,11 +67,20 @@
     }  
 }
 
-@media (max-width: 870px) {
-    .consultation {
+@media (max-width: 935px) {
+    .consultation, .letter {
         &__form {
             flex-direction: column;
             align-items: center;
+        }
+    }
+    .letter {
+        &__form {
+            padding: 10px 10px 0;
+        }
+        textarea {
+            margin-top: 8px;
+            width: 90%;
         }
     }
 }
