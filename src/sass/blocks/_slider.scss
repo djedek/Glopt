@@ -1,0 +1,38 @@
+.slider {
+    max-width: 600px;
+    margin: 30px auto 0;
+    &__carousel {
+        position: relative;
+    }
+    &__img {
+        display: block;
+        margin: 0 auto;
+    }
+    &__name {
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: center;
+        margin-top: 18px;
+        color: #3a3a3a;
+    }
+    &__text {
+        margin-top: 12px;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: center;
+    }
+    .slick-prev, .slick-next {
+        position: absolute;
+        z-index: 3;
+        top: 33px;
+        left: calc(50% - 118px);
+        border: none;
+        background: none;
+    }
+    .slick-next {
+        left: calc(50% + 98px);
+    }
+}

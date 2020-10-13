@@ -1,5 +1,7 @@
 @import "libs/fonts";
 @import "libs/bootstrap-reboot.min";
+@import "libs/slick";
+
 
 @import "base/variables";
 * {
@@ -19,6 +21,8 @@
 @import "blocks/prices";
 @import "blocks/consultation";
 @import "blocks/schema";
+@import "blocks/reviews";
+@import "blocks/slider";
 
 
 @import "base/media";

@@ -25,6 +25,14 @@ $(document).ready(function(){
 
 	$('input[name=phone]').mask("+9 (999) 999-99-99");
 
+
+	$('.slider__carousel').slick({
+		slidesToShow: 1,
+		prevArrow: '<button type="button" class="slick-prev"><img src="img/reviews_left.png"></button>',
+		nextArrow: '<button type="button" class="slick-next"><img src="img/reviews_right.png"></button>'
+	});
+
+
 	$('form').submit(function(e) {
 		e.preventDefault();
 		$.ajax({
