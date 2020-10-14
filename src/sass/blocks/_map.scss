@@ -1,0 +1,33 @@
+.map {
+    max-width: 1920px;
+    height: 500px;
+    background: url("../img/map_marker_message.jpg") center (center/cover) no-repeat;
+    margin: 0 auto;
+    &__address {
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translateX(-35%);
+        display: block;
+        width: 230px;
+        height: 105px;
+        margin-bottom: 0;
+        color: #3a3a3a;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left;
+        span {
+            color: $main_color;
+            font-size: 16px;
+            font-weight: 700;
+        }
+    }
+    &__phone {
+        color: #3a3a3a;
+        text-decoration: none;
+    }
+    &__email {
+        color: $main_color;
+    }
+}
