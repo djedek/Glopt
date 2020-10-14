@@ -83,6 +83,11 @@
             width: 90%;
         }
     }
+    .footer {
+        &__header {
+            flex-direction: column;
+        }
+    }
 }
 
 @media (max-width: 770px) {
@@ -143,6 +148,21 @@
             font-size: 22px;
         }
     }
+    .footer {
+        &__logo {
+            flex-direction: column;
+            width: 100%;
+            h2 {
+                text-align: center;
+            }
+        }
+        &__botton {
+            flex-direction: column;
+        }
+        &__website-creation {
+            margin-top: 10px;
+        }
+    }
 }
 
 @media (max-width: 500px) {
@@ -150,6 +170,7 @@
         justify-content: center;
         align-items: center;
         flex-direction: column;
+        width: 100%;
         &__phone {
             margin-bottom: 10px;
             text-align: center;
