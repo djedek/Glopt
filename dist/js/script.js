@@ -34,6 +34,29 @@ $(document).ready(function(){
 	});
 
 
+	$(window).scroll(function() {
+		if($(this).scrollTop() > 1600) {
+			$('.pageup').fadeIn();
+		} else {
+			$('.pageup').fadeOut();
+		}
+	});
+
+	$("a[href^='#']").click(function(){
+		var _href = $(this).attr("href");
+		$("html, body").animate({scrollTop: $(_href).offset().top+"px"});
+		return false;
+	});
+
+
+	// Modal
+
+	$('.modal__close').on('click', function() {
+		$('#thanks, .overlay').fadeOut('slow');
+	});
+
+
+
 	$('form').submit(function(e) {
 		e.preventDefault();
 		$.ajax({
@@ -41,13 +64,14 @@ $(document).ready(function(){
 			url: "mailer/smart.php",
 			data: $(this).serialize()
 		}).done(function() {
-			$(this).find("input").val("");
-			$('#consultation, #order').fadeOut();
+			$(this).find("input, textarea").val("");
 			$('.overlay, #thanks').fadeIn('slow');
 
 			$('form').trigger('reset');
 		});
 		return false;
 	});
+
+	new WOW().init();
 
 });
